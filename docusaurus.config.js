@@ -8,11 +8,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Hospital Prices',
   tagline: 'A contributors guide to making hospital prices accessible to everyone. ',
-  url: 'https://www.hospitalprices.dev',
+  url: 'https://www.hospitalprices.dev/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/hp_logo.png',
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
